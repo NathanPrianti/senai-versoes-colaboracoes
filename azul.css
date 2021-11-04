@@ -1,0 +1,46 @@
+body {
+    font-family: arial;
+    background-image: url(https://exame.com/wp-content/uploads/2020/01/gettyimages-1063196028.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:blue;
+    width: 100vh;
+    
+    
+    }
+    h1{
+        text-align: center;
+        color:blue;
+    }
+    p{line-height: 30px;}
+    .conteudo {
+        margin: auto;
+        margin-top: 200px;
+        padding: 40px;
+        background-color: white;
+        width: 300px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px black;
+    }
+    .enfase{
+        text-align: right;
+        color: blue;
+        font-size: 25px;
+    }
+    .botao{
+        display: grid;
+        place-content: center;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-decoration: none;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+    .botao:hover{
+        background-color: lightgreen;
+        cursor: crosshair;
+    }
